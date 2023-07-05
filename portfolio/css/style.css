@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 1.7rem;
+    font-family: 'caveat';
+    color: #2e0c00;
+    letter-spacing: 3px;
+}
+
+/******REAUSABLE CODE******/
+
+.row{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+p{
+    font-family: 'caveat';
+    font-weight: 600;
+}
+
+/*
+ *LINKS
+ */
+a{
+    color: #2e0c00;
+    text-decoration: dotted 1px underline;
+}
+
+/*
+ *BUTTONS
+ */
+.btn{
+    background-color: #cbe3ff;
+    padding: 5px 50px;
+    border: #952c01 1.7px solid;
+    text-decoration: none;
+}
+
+/*
+ *HEADINGS
+ */
+ h1{
+    font-family: 'merienda', cursive;
+    font-weight: 300;
+    font-size: 300%;
+    color: #952c01;
+ }
+
+/******HEADER******/
+nav{
+    float: right;
+    margin-top: 2.5%;
+}
+nav li{
+    display: inline-block;
+    margin-left: 1em;
+}
+header{
+    height: 100vh;
+    padding-top: 1%;
+    background: linear-gradient(to bottom right,#fff, #ffe7cb, #cbe3ff) ;
+}
+header p{
+    margin-bottom: 40px;
+}
+.logo{
+    width: 90px;
+    display: inline-block;
+}
+.logo img{
+    width: 100%;
+}
+.hero{
+    position: absolute;
+    top: 37%;
+    left: 14%;
+}
