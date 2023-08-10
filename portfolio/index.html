@@ -4,34 +4,201 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="image/s-white.png">
+	<link rel="shortcut icon" href="image/s-white.png" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Merienda:wght@300;500&display=swap" rel="stylesheet">
-    <title>Document</title>
+	<link rel="stylesheet" href="fullpage.js/dist/fullpage.min.css" />
+	<!-- Gloogle Fonts -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+	<link rel="stylesheet" href="css/icons.css">
+	<!-- Glidejs Required Core Stylesheet -->
+	<link rel="stylesheet" href="@glidejs/glide/dist/css/glide.core.min.css">
+	<!-- Optional Theme Stylesheet -->
+	<link rel="stylesheet" href="@glidejs/glide/dist/css/glide.theme.min.css">
+
+	<title>Document</title>
 </head>
 <body>
-    <header>
-        <div class="row nav">
-            <div class="logo">
-                <img src="image/s.png" alt="logo">
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Works</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-        <div class="hero">
-            <h1>Hello, I am XIMAH!</h1>
-            <p>I believe brevity is key.<br />My print and digital designs are all about minimalism and elegance.</p>
-            <a href="#" class="btn">Contact me</a>
-        </div>
-    </header>
+	<div class="row nav" id="menu">
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Services</a></li>
+				<li><a href="#">Works</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+	</div>
 
+	<div id="fullpage">
+		<div class="section">
+			<header>
+				<div class="row" id="menu">
+					<div class="logo">
+					<img src="image/s.png" alt="logo">
+					</div>
+				</div>
+				<div class="hero">
+					<h1>Hello, I am XIMAH!</h1>
+					<p>I believe brevity is key.<br />My print and digital designs are all about minimalism and elegance.</p>
+					<a href="#" class="btn">Contact me</a>
+				</div>
+			</header>
+		</div>
+		<div class="section section-services">
+			<div class="row">
+				<div class="logo">
+				<img src="image/s-grey.png" alt="logo">
+				</div>
+			</div>
+			<div class="glide">
+				<div class="glide__track" data-glide-el="track">
+					<ul class="glide__slides">
+						<li class="glide__slide box">
+							<div class="img-box">
+								<img src="image/1.png" alt="">
+							</div>
+							<div class="text-box">
+								<h2>I will build custom sites for your brand</h2>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore doloribus expedita officiis similique repellendus suscipit?</p>
+							</div>
+						</li>
+						<li class="glide__slide box">
+							<div class="img-box">
+								<img src="image/2.png" alt="">
+							</div>
+							<div class="text-box">
+								<h2>I'll help manage your website</h2>
+								<h2>&nbsp;</h2>
+								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti sequi exercitationem provident nam animi repudiandae.</p>
+							</div>
+						</li>
+						<li class="glide__slide box">
+							<div class="img-box">
+								<img src="image/3.png" alt="">
+							</div>
+							<div class="text-box">
+								<h2>And I can change your designs to code</h2>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis optio maxime ipsam quasi voluptates temporibus.</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="glide__arrows" data-glide-el="controls">
+					<button class="glide__arrow glide__arrow--left" data-glide-dir="<" style="background-color: #cbe3ff; text-align: center;">
+						<svg xmlns="http://www.w3.org/2000/svg" class="material-symbols-rounded" height="48" viewBox="0 -960 960 960" width="48"><path d="M372-108 21-459q-5-5-7-10t-2-11q0-6 2-11t7-10l351-351q11-11 28-11t28 11q12 12 12 28.5T428-795L113-480l315 315q12 12 11.5 28.5T428-109q-12 12-28.5 12T372-108Z"/></svg>
+					</button>
+					<button class="glide__arrow glide__arrow--right" data-glide-dir=">" style="background-color: #cbe3ff;">
+						<svg xmlns="http://www.w3.org/2000/svg" class="material-symbols-rounded" height="48" viewBox="0 -960 960 960" width="48"><path d="M276-111q-11-12-11.5-28t11.5-28l315-315-315-315q-11-11-11.5-27.5T276-853q11-12 27.5-12.5T332-854l351 351q5 5 7 10t2 11q0 6-2 11t-7 10L332-110q-11 11-27.5 11T276-111Z"/></svg>
+					</button>
+				</div>
+			</div>
+		</div>
+		<div class="section section-gallery">
+		<div class="push">
+			<div class="gallery">
+				<div class="outer">
+					<div class="g-box">
+						<img src="image/1 (2).png" alt="site">
+					</div>
+				</div>
+				<div class="outer">
+					<div class="g-box">
+						<img src="image/2 (2).png" alt="site">
+					</div>
+				</div>
+				<div class="outer">
+					<div class="g-box">
+						<img src="image/3 (2).png" alt="site">
+					</div>
+				</div>
+				<div class="outer">
+					<div class="g-box">
+						<img src="image/4.png" alt="site">
+					</div>
+				</div>
+			</div>
+			<div class="gallery middle">
+				<div class="outer">
+					<div class="g-box">
+						<img src="image/5.png" alt="site">
+					</div>
+				</div>
+				<div class="outer">
+					<div class="g-box">
+						<img src="image/6.png" alt="site">
+					</div>
+				</div>
+				<div class="outer">
+					<div class="g-box">
+						<img src="image/7.png" alt="site">
+					</div>
+				</div>
+				<div class="outer">
+					<div class="g-box">
+						<img src="image/8.png" alt="site">
+					</div>
+				</div>
+			</div>
+			<div class="gallery">
+				<div class="outer">
+					<div class="g-box">
+						<img src="image/1 (2).png" alt="site">
+					</div>
+				</div>
+				<div class="outer">
+					<div class="g-box">
+						<img src="image/2 (2).png" alt="site">
+					</div>
+				</div>
+				<div class="outer">
+					<div class="g-box">
+						<img src="image/3 (2).png" alt="site">
+					</div>
+				</div>
+				<div class="outer">
+					<div class="g-box">
+						<img src="image/4.png" alt="site">
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+		<div class="section">Some section</div>
+	</div>
+
+
+
+<!-- This following line is optional. Only necessary if you use the option css3:false and you want to use other easing effects rather than "easeInOutCubic". -->
+<script src="fullpage.js/dist/fullpage.min.js"></script>
+<script>
+	var fullpage_api = fullpage('#fullpage', {
+											//options here
+											autoScrolling: true,
+											scrollHorizontally: true,
+
+											//Navigation
+											menu: '#menu',
+										 	}
+								);
+	fullpage_api.setKeyboardScrolling(true);
+</script>
+<script src="@glidejs/glide/dist/glide.min.js"></script>
+<script>
+	new Glide('.glide', {
+		type: 'carousel',
+		startAt: 0,
+		perView: 2,
+		keyboard: false,
+		peek: {
+			before: 0,
+			after: 300
+		},
+		gap: 30,
+		animationDuration: 1000
+	}).mount()
+  </script>
 </body>
 </html>
